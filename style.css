@@ -28,14 +28,15 @@
 }
 
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--cream);
     color: var(--text-body);
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 h1,
